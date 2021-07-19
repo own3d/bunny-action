@@ -6,7 +6,7 @@ This action provides `bunny` for GitHub Actions.
 
 `.github/workflows/deploy.yml`
 ```yaml
-name: Build and Deploy
+name: Deploy to Edge Storage
 on: [push]
 jobs:
   deploy:
