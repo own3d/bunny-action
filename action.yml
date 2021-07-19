@@ -1,0 +1,8 @@
+name: 'Bunny CLI Action'
+description: 'Replicate and store your files to the edge!'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'terminal'
+  color: 'blue'
