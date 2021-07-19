@@ -2,4 +2,6 @@
 
 set -e
 
-sh -c "bunny $*"
+composer global require ghostzero/bunny
+
+sh -c "$COMPOSER_HOME/vendor/bin/bunny $*"
