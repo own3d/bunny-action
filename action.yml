@@ -1,4 +1,4 @@
-name: 'Bunny CLI Action'
+name: 'Bunny CLI'
 description: 'Replicate and store your files to the edge!'
 runs:
   using: 'docker'
