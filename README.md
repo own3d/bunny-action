@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
       - name: Deploy to Edge Storage
-        uses: ghostzero/bunny-action@main
+        uses: own3d/bunny-action@main
         env:
           BUNNY_API_ACCESS_KEY: ${{ secrets.BUNNY_API_ACCESS_KEY }}
           BUNNY_STORAGE_HOSTNAME: storage.bunnycdn.com
